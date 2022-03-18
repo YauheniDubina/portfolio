@@ -31,3 +31,19 @@ window.onclick = function (event) {
   }
 };
 
+const portfolioBtn = document.querySelectorAll(".portfolio__seasons-btn");
+
+const portfolioImage = document.querySelectorAll(".portfolio-img");
+
+portfolioBtn.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    portfolioBtn.forEach((button) => {
+      button.classList.remove("active");
+    });
+    btn.classList.toggle("active");
+
+    portfolioImage.forEach((img, index) => {
+      img.src = `./images/${btn.dataset.season}/${index + 1}.jpg`;
+    });
+  });
+});
