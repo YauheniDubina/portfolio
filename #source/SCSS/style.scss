@@ -168,6 +168,16 @@ body {
     &__menu-language {
         font-weight: bold;
         word-spacing: 4px;
+        cursor: pointer;
+    }
+    .check{
+        color: #bdae82;
+    }
+   
+    .ru{
+        @media(max-width:768px){
+            padding: 0 0 0 10px;
+        }
     }
     .dropdown {
         display: none;
@@ -340,14 +350,7 @@ body {
     }
 }
 
-.english {
-    color: #bdae82;
-}
-.ru{
-    @media(max-width:768px){
-        padding: 0 0 0 10px;
-    }
-}
+
 
 .skills {
     // .skills__title

@@ -187,6 +187,15 @@ body {
 .header__menu-language {
   font-weight: bold;
   word-spacing: 4px;
+  cursor: pointer;
+}
+.header .check {
+  color: #bdae82;
+}
+@media (max-width: 768px) {
+  .header .ru {
+    padding: 0 0 0 10px;
+  }
 }
 .header .dropdown {
   display: none;
@@ -339,16 +348,6 @@ body {
 }
 .header__title-btnHire:hover {
   color: #ffffff;
-}
-
-.english {
-  color: #bdae82;
-}
-
-@media (max-width: 768px) {
-  .ru {
-    padding: 0 0 0 10px;
-  }
 }
 
 .skills__title {
