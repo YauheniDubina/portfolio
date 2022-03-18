@@ -30,7 +30,7 @@ window.onclick = function (event) {
     }
   }
 };
-
+//gallary
 const portfolioBtn = document.querySelectorAll(".portfolio__seasons-btn");
 
 const portfolioImage = document.querySelectorAll(".portfolio-img");
@@ -47,3 +47,16 @@ portfolioBtn.forEach((btn) => {
     });
   });
 });
+
+//cache
+
+const seasons = ['winter', 'spring', 'summer', 'autumn'];
+function preloadImages(){
+  seasons.forEach((season)=>{
+    for (let i=1;i<=6;i++){
+      const img=new Image();
+      img.src=`./images/${season}/${i}.jpg`
+    }
+  })
+}
+preloadImages()
