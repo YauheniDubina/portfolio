@@ -95,6 +95,9 @@ body {
 
 .wrapper {
     width: 100%;
+    margin: 0 auto;
+}
+.container{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -714,6 +717,7 @@ body {
 .contacts {
     // .contactMe__feedback
     background: url("../images/contacts.jpg");
+    background-size: cover;
     @media (max-width: 768px) {
         height: 600px;
         background-position: -245px -4px;
