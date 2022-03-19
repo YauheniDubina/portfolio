@@ -101,7 +101,7 @@ body {
 .header {
     background: url("../images/bg.jpg");
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
 
     @media (max-width: 768px) {
         height: 590px;

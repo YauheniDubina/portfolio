@@ -107,14 +107,18 @@ body {
 
 .wrapper {
   width: 100%;
-  max-width: 1440px;
+
+  margin: 0 auto;
+}
+.container{
+   max-width: 1440px;
   margin: 0 auto;
 }
 
 .header {
   background: url("../images/bg.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
 }
 @media (max-width: 768px) {
   .header {
