@@ -92,6 +92,16 @@ body {
     color: #ffffff;
     background-color: #000000;
 }
+.dark-theme{
+    background-color:black;
+}
+.light-theme{
+    background-color: white;
+    color: black;
+    fill: black;
+    a{color: black;}
+}
+
 
 .wrapper {
     width: 100%;
@@ -101,10 +111,14 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+.header__menu-theme{
+    cursor: pointer;
+}
 .header {
+    // background-image:  url("../images/bg.jpg");
     background: url("../images/bg.jpg");
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
 
     @media (max-width: 768px) {
         height: 590px;
@@ -174,7 +188,7 @@ body {
         cursor: pointer;
     }
     .check{
-        color: #bdae82;
+        color: rgb(190, 67, 36);
     }
    
     .ru{
@@ -718,6 +732,9 @@ body {
     // .contactMe__feedback
     background: url("../images/contacts.jpg");
     background-size: cover;
+
+    color: #bdae82;
+    
     @media (max-width: 768px) {
         height: 600px;
         background-position: -245px -4px;
@@ -742,7 +759,7 @@ body {
             font-size: 40px;
             line-height: 80px;
             /* identical to box height, or 200% */
-            color: #bdae82;
+            // 
             @media (max-width: 768px) {
                 font-size: 32px;
                 line-height: 64px;
@@ -871,7 +888,7 @@ body {
         font-size: 20px;
         line-height: 50px;
         /* identical to box height, or 250% */
-        color: #ffffff;
+        
         gap: 22px;
         padding: 0 0 0 20px;
         @media (max-width: 768px) {
@@ -900,7 +917,7 @@ body {
             font-size: 20px;
             line-height: 50px;
             /* identical to box height, or 250% */
-            color: #ffffff;
+            
             padding: 0 0 0 17px;
             @media (max-width: 768px) {
                 padding: 0;

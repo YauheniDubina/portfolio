@@ -105,6 +105,19 @@ body {
   background-color: #000000;
 }
 
+.dark-theme {
+  background-color: black;
+}
+
+.light-theme {
+  background-color: white;
+  color: black;
+  fill: black;
+}
+.light-theme a {
+  color: black;
+}
+
 .wrapper {
   width: 100%;
   margin: 0 auto;
@@ -115,10 +128,14 @@ body {
   margin: 0 auto;
 }
 
+.header__menu-theme {
+  cursor: pointer;
+}
+
 .header {
   background: url("../images/bg.jpg");
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
 }
 @media (max-width: 768px) {
   .header {
@@ -194,7 +211,7 @@ body {
   cursor: pointer;
 }
 .header .check {
-  color: #bdae82;
+  color: #be4324;
 }
 @media (max-width: 768px) {
   .header .ru {
@@ -722,6 +739,7 @@ body {
 .contacts {
   background: url("../images/contacts.jpg");
   background-size: cover;
+  color: #bdae82;
 }
 @media (max-width: 768px) {
   .contacts {
@@ -758,7 +776,6 @@ body {
   font-size: 40px;
   line-height: 80px;
   /* identical to box height, or 200% */
-  color: #bdae82;
 }
 @media (max-width: 768px) {
   .contacts__feedback-name h3 {
@@ -911,7 +928,6 @@ body {
   font-size: 20px;
   line-height: 50px;
   /* identical to box height, or 250% */
-  color: #ffffff;
   gap: 22px;
   padding: 0 0 0 20px;
 }
@@ -939,7 +955,6 @@ body {
   font-size: 20px;
   line-height: 50px;
   /* identical to box height, or 250% */
-  color: #ffffff;
   padding: 0 0 0 17px;
 }
 @media (max-width: 768px) {
