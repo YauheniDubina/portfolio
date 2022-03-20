@@ -108,7 +108,7 @@ themeSwitch.forEach((item) => {
     theme.forEach((el) => {
       if (el.classList.contains("dark-theme")) {
         themeIcon[0].lastElementChild.src = "./images/moon.png";
-        headerFooterBg[0].style.backgroundImage = "url(../images/bg-light.jpg)";
+        headerFooterBg[0].style.backgroundImage = "url(./images/bg-light.jpg)";
         headerFooterBg[0].style.color = "black";
         headerFooterBg[1].style.backgroundImage =
           "url(../images/contacts-bg-light.png)";
@@ -121,8 +121,8 @@ themeSwitch.forEach((item) => {
         el.classList.remove("light-theme");
         el.classList.toggle("dark-theme");
         bodyBg[0].style.background = "black";
-        headerFooterBg[0].style.backgroundImage = "url(../images/bg.jpg)";
-        headerFooterBg[1].style.backgroundImage = "url(../images/contacts.jpg)";
+        headerFooterBg[0].style.backgroundImage = "url(./images/bg.jpg)";
+        headerFooterBg[1].style.backgroundImage = "url(./images/contacts.jpg)";
         headerFooterBg[0].style.color = "white";
         headerFooterBg[1].style.color = "#bdae82";
       }
