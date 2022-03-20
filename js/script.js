@@ -111,7 +111,7 @@ themeSwitch.forEach((item) => {
         headerFooterBg[0].style.backgroundImage = "url(./images/bg-light.jpg)";
         headerFooterBg[0].style.color = "black";
         headerFooterBg[1].style.backgroundImage =
-          "url(../images/contacts-bg-light.png)";
+          "url(./images/contacts-bg-light.png)";
         headerFooterBg[1].style.color = "black";
         el.classList.remove("dark-theme");
         el.classList.toggle("light-theme");
