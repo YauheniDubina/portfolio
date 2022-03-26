@@ -496,11 +496,6 @@ body {
   }
 }
 
-@media (max-width: 450px) {
-  .portfolio {
-    display: none;
-  }
-}
 .portfolio__title {
   padding: 110px 0 0 0;
   font-weight: bold;
@@ -529,7 +524,6 @@ body {
 }
 @media (max-width: 768px) {
   .portfolio__seasons {
-    width: 445px;
     margin: 0 auto 60px auto;
   }
 }
@@ -578,6 +572,11 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 25px;
+}
+@media (max-width: 450px) {
+  .portfolio__gallary img {
+    width: 250px;
+  }
 }
 
 .video__title {
